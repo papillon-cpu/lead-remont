@@ -5,14 +5,26 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ремонт квартир под ключ — Строительные Решения</title>
 <link rel="canonical" href="https://leads-form.spru.run/p/remont">
-<meta http-equiv="refresh" content="0; url=https://leads-form.spru.run/p/remont">
-<script>window.location.replace("https://leads-form.spru.run/p/remont");</script>
-<style>body{font:15px/1.6 system-ui,sans-serif;margin:0;display:grid;place-items:center;min-height:100vh;background:#0f1115;color:#e8eaee}main{max-width:520px;padding:32px;text-align:center}a{color:#f0b429}</style>
+<meta name="description" content="Ремонт квартир и домов под ключ в Москве: дизайн-проект в подарок, поэтапная оплата, гарантия до 3 лет.">
+<link rel="stylesheet" href="https://leads-form.spru.run/assets/base.css">
+<meta property="og:title" content="Ремонт квартир под ключ — Строительные Решения">
+<meta property="og:description" content="Дизайн-проект в подарок, поэтапная оплата, гарантия до 3 лет.">
+<meta property="og:image" content="https://leads-form.spru.run/img/remont.jpg">
 </head>
 <body>
-<main>
-<h1>Ремонт квартир под ключ — «Строительные Решения»</h1>
-<p>Открываем страницу… Если она не открылась автоматически, <a href="https://leads-form.spru.run/p/remont">перейдите по ссылке</a>.</p>
-</main>
+<div id="app"></div>
+<script>
+fetch("https://leads-form.spru.run/p/remont")
+  .then(function (r) { return r.text(); })
+  .then(function (html) {
+    document.open();
+    document.write(html);
+    document.close();
+  })
+  .catch(function () {
+    document.getElementById("app").innerHTML =
+      '<p style="font:16px/1.6 system-ui,sans-serif;padding:40px">Страница грузится — <a href="https://leads-form.spru.run/p/remont">открыть здесь</a></p>';
+  });
+</script>
 </body>
 </html>
